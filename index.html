@@ -29,14 +29,14 @@
 
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Sobre nós</a></li>
-                    <li><a href="#">Download</a></li>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre nós</a></li>
+                    <li><a href="#dowload">Download</a></li>
                 </ul>
             </nav>
 
             <div class="btn-contato">
-                <a href="#">
+                <a href="#cadastro">
                     <button>Cadastrar</button>
                 </a>
             </div><!--btn-contato-->
@@ -89,51 +89,59 @@
             <div class="interface">
                 <h2 class="titulo">DESTAQUES</h2>
                 <div class="flex">
-                    <div class="especialidades-box">
-                        <i class="bi bi-code-square"></i>
-                        <h3>TRAILER 1</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nulla rem dolore inventore delectus at.</p>
+                    <div class="especialidades-box gif1" >
+                       
+                        <h3>FASE 1</h3>
+                        <p>A primeira fase acontece em uma fábrica cheia de plataformas móveis, engrenagens e vapor. O jogador deve saltar e desviar de perigos como máquinas e raios elétricos, enquanto o ritmo frenético aumenta a tensão.</p>
                     </div><!--especialidades-box-->
 
-                    <div class="especialidades-box">
-                        <i class="bi bi-cart"></i>
-                        <h3>TRAILER 2</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nulla rem dolore inventore delectus at.</p>
+                    <div class="especialidades-box gif2" >
+                       
+                        <h3>FASE 2</h3>
+                        <p>Em breve...</p>
                     </div><!--especialidades-box-->
 
-                    <div class="especialidades-box">
-                        <i class="bi bi-wordpress"></i>
-                        <h3>TRAILER 3</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nulla rem dolore inventore delectus at.</p>
+                    <div class="especialidades-box gif3" >
+                        
+                        <h3>FASE 3</h3>
+                        <p>Em breve...</p>
                     </div><!--especialidades-box-->
                 </div><!--flex-->
             </div><!--interface-->
+            
         </section><!--especiliadades-->
 
+        
+        <div class="cont" id="sobre">
+            <iframe width="80%" height="" src="https://www.youtube.com/embed/d-HC2TL6aCM?si=ZOS4WrOWclkUhkC3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div >
+
+        
         <section class="sobre">
-            <div class="interface">
+            <div id="sobre">
+            <div class="interface" >
                 <div class="flex">
                     <div class="img-sobre">
                         <img src="images/1.png" alt="">
                     </div><!--img-sobre-->
-
-                    <div class="txt-sobre">
+                    <div class="txt-sobre"  >
                         <h2>MUITO PRAZER, <span>somos a NOBLE.</span></h2>
                         <p> Uma empresa brasileira de jogos indie apaixonada por criar experiências únicas e envolventes. Com um time talentoso e criativo, desenvolvemos jogos que misturam arte inovadora e mecânicas cativantes, sempre com um toque de originalidade. Nossa missão é explorar novas fronteiras no universo dos games, proporcionando entretenimento de alta qualidade para jogadores de todas as idades. Estamos comprometidos com a excelência e com o crescimento da indústria de games indie no Brasil.</p>
                         <div class="btn-social">
                             <a href="#"><button><i class="bi bi-instagram"></i></button></a>
-                            <a href="#"><button><i class="bi bi-youtube"></i></button></a>
+                            <a src="#www.youtube.com/@MagnoBros-noble"><button><i class="bi bi-youtube"></i></button></a>
                             <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
                         </div><!--btn-social-->
                     </div><!--txt-sobre-->
                 </div><!--flex-->
             </div><!--interface-->
+        </div>
         </section><!--sobre-->
 
-        <section class="portfolio">
+        <section class="portfolio" >
             <div class="interface">
                 <h2 class="titulo">Conheça mais sobre <span>nós.</span></h2>
-                <div class="flex">
+                <div class="flex" >
                     <div class="img-port" style="background-image: url(images/imagem.jpg);">
                         <div class="overlay">Personagens</div>
                     </div>
@@ -144,23 +152,25 @@
                         <div class="overlay">Arte</div>
                     </div>
                 </div><!--flex-->
-            </div><!--interface-->
+            </div><!--interface-->  
         </section><!--portfolio-->
+    </div>
+    <div id="cadastro">
+		<section  class="formulario" id="cadastro">
+            
+		    <div class="interface">
+		        <h2 class="titulo">Faça <span>o registro</span> e receba atualizações!</h2>
 
-        <section class="formulario">
-            <div class="interface">
-                <h2 class="titulo">Faça <span>Login.</span></h2>
-
-                <form action="">
-                    <input type="text" name="" id="" placeholder="Seu nome completo:" required>
-                    <input type="text" name="" id="" placeholder="Seu e-mail:" required>
-                    <input type="text" name="" id="" placeholder="Seu celular:">
-                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
-                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
-                </form>
-            </div><!--interface-->
-        </section><!--formulario-->
-
+		        <form id="contactForm">
+		            <div id="error" style="color: red;"></div> <!-- Error message div -->
+		            <input type="text" name="clinome" id="clinome" placeholder="Seu nome completo:" required>
+		            <input type="email" name="cliemail" id="cliemail" placeholder="Seu e-mail:" required>
+		            <textarea name="climensagem" id="climensagem" placeholder="Sua mensagem" required></textarea>
+		            <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+		        </form>
+		    </div><!--interface-->
+		</section><!--formulario-->
+    </div>
     </main>
 
     <footer>
