@@ -234,22 +234,22 @@ section.especiliadades .flex {
     
 }
 .gif1{
-    background-image: url("images/img1.png");
+    background-image: url("https://i.ibb.co/hVYFtvY/img1.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 .gif2{
-    background-image: url("images/img1.png");
+    background-image: url("https://i.ibb.co/9gtJZSz/bloq.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 .gif3{
-    background-image: url("images/img1.png");
+    background-image: url("https://i.ibb.co/9gtJZSz/bloq.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 .gif1:hover{
-    background-image: url("images/gifmagnobros.gif");
+    background-image: url("https://i.ibb.co/bBfpcz1/gifmagnobros.gif");
     background-size: cover;
     background-repeat: no-repeat;
     transform: scale(1.05);
@@ -257,7 +257,7 @@ section.especiliadades .flex {
 }
 
 .gif2:hover{
-    background-image: url("images/gifmagnobros.gif");
+    background-image: url("https://i.ibb.co/bBfpcz1/gifmagnobros.gif");
     background-size: cover;
     background-repeat: no-repeat;
     transform: scale(1.05);
@@ -265,7 +265,7 @@ section.especiliadades .flex {
 }
 
 .gif3:hover{
-    background-image: url("images/gifmagnobros.gif");
+    background-image: url("https://i.ibb.co/bBfpcz1/gifmagnobros.gif");
     background-size: cover;
     background-repeat: no-repeat;
     transform: scale(1.05);
